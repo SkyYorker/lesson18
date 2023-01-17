@@ -1,4 +1,8 @@
+import sys
 from dao.model.director import Director
+sys.path.append(r"D:\Pro\Python\lesson18\demostration_solution")
+
+
 
 
 class DirectorDAO:
@@ -28,3 +32,5 @@ class DirectorDAO:
 
         self.session.add(director)
         self.session.commit()
+
+

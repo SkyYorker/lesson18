@@ -1,7 +1,7 @@
 from dao.director import DirectorDAO
 
 
-class DirectorService:
+class DirectorServie:
     def __init__(self, dao: DirectorDAO):
         self.dao = dao
 
